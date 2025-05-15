@@ -1,3 +1,4 @@
 <x-layout>
-  <h1>Hello from the about page</h1>
+  <x-slot:heading>About</x-slot>
+    Hello from the about page
 </x-layout>
