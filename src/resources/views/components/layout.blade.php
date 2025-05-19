@@ -28,9 +28,9 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <x-navlink href="/">Home</x-navlink>
-        <x-navlink href="/about">About</x-navlink>
-        <x-navlink href="/contact">Contact</x-navlink>
+        <x-navlink href="/" :active="request()->is('/')">Home</x-navlink>
+        <x-navlink href="/about" :active="request()->is('about')">About</x-navlink>
+        <x-navlink href="/contact" :active="request()->is('contact')">Contact</x-navlink>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       </div>
