@@ -29,7 +29,7 @@
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
         <x-navlink href="/" :active="request()->is('/')">Home</x-navlink>
-        <x-navlink href="/about" :active="request()->is('about')">About</x-navlink>
+        <x-navlink href="/jobs" :active="request()->is('jobs')">Jobs</x-navlink>
         <x-navlink href="/contact" :active="request()->is('contact')">Contact</x-navlink>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
