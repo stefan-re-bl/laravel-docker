@@ -9,6 +9,7 @@ services:
       - "8000:80"
     depends_on:
       - db
+    user: "${UID}:${GID}"
 
   db:
     image: mysql:8.0

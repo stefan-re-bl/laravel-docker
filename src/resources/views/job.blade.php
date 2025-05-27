@@ -1,5 +1,5 @@
 <x-layout>
   <x-slot:heading>{{ $job ['title'] }}</x-slot:heading>
 
-<p class="text-lg" >This job is from: {{ $job ['location'] }}</p>
+<p class="text-lg" >This job salary is: {{ $job ['salary'] }}</p>
 </x-layout>
